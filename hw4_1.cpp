@@ -14,6 +14,7 @@ int main(){
 		std::cin >> n;
 	}
 
+	//populate matrix
 	RealMatrix I(n, std::vector<int>(n, 0));
 	for(int i=0; i<n; ++i){
 		I[i][i] = 1;
